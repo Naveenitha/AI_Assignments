@@ -102,3 +102,15 @@ search.bfs(start_state)
 
 print("\nDFS Path:")
 search.dfs(start_state)
+
+
+## OUPUT
+
+
+# BFS Path:
+# Goal found
+# EEE_WWW->EE_EWWW->EEWE_WW->EEWEW_W->EEW_WEW->E_WEWEW->_EWEWEW->WE_EWEW->WEWE_EW->WEWEWE_->WEWEW_E->WEW_WEE->W_WEWEE->WW_EWEE->WWWE_EE->WWW_EEE
+
+# DFS Path:
+# Goal found
+# EEE_WWW->EEEW_WW->EE_WEWW->E_EWEWW->EWE_EWW->EWEWE_W->EWEWEW_->EWEW_WE->EW_WEWE->_WEWEWE->W_EWEWE->WWE_EWE->WWEWE_E->WWEW_EE->WW_WEEE->WWW_EEE
